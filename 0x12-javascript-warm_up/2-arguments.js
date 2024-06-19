@@ -10,4 +10,3 @@ if (!process.argv[2]) {
   words = 'Arguments found';
 }
 console.log(words);
-

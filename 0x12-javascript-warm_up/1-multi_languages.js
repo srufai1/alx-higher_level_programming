@@ -7,4 +7,3 @@ words = 'Python is cool';
 console.log(words);
 words = 'JavaScript is amazing';
 console.log(words);
-

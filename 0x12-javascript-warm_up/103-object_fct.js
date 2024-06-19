@@ -19,5 +19,4 @@ myObject.incr(); // Increment 'value' by 1
 console.log(myObject); // Output: { type: 'object', value: 14 }
 
 myObject.incr(); // Increment 'value' by 1
-console.log(myObject); // Output: { type: 'object', value: 15 }
-
+console.log(myObject);

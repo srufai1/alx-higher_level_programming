@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 // Computes and prints the factorial of a number
-function factorial(n) {
+function factorial (n) {
   if (isNaN(n) || n === 1) {
     return 1;
   } else {
@@ -10,4 +10,3 @@ function factorial(n) {
 }
 
 console.log(factorial(parseInt(process.argv[2])));
-

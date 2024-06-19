@@ -7,4 +7,3 @@ while (a[i]) {
   console.log(a[i]);
   i++;
 }
-

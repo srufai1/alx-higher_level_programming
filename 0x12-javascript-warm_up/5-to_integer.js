@@ -7,4 +7,3 @@ if (!isNaN(n)) {
   a = 'My number: ' + n;
 }
 console.log(a);
-

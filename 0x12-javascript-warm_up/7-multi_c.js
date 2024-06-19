@@ -8,4 +8,3 @@ while (i < j) {
   console.log(words);
   i++;
 }
-
