@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-
+"""
+    Print text with 2 new lines after each of the characters '.', '?' and ':'.
+"""
 def text_indentation(text):
     """
     Print text with 2 new lines after each of the characters '.', '?' and ':'.
