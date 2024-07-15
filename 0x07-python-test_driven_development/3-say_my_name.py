@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"A function to print my name"
 def say_my_name(first_name, last_name=""):
     """
     Print the name in the format "My name is <first name> <last name>"
