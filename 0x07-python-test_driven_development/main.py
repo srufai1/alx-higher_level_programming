@@ -1,10 +1,5 @@
 #!/usr/bin/python3
-say_my_name = __import__('3-say_my_name').say_my_name
+lazy_matrix_mul = __import__('101-lazy_matrix_mul').lazy_matrix_mul
 
-say_my_name("John", "Smith")
-say_my_name("Walter", "White")
-say_my_name("Bob")
-try:
-    say_my_name(12, "White")
-except Exception as e:
-    print(e)
+print(lazy_matrix_mul([[1, 2], [3, 4]], [[1, 2], [3, 4]]))
+print(lazy_matrix_mul([[1, 2]], [[3, 4], [5, 6]]))
