@@ -1,8 +1,5 @@
 #!/usr/bin/node
-/* Defining a rectangle using Javascript classee
-*/
-class Rectangle{
+class Rectangle {
 
 }
-
 module.exports = Rectangle;
