@@ -13,7 +13,7 @@ const fileCPath = process.argv[4];
 try {
   const contentA = fs.readFileSync(fileAPath, 'utf-8');
   const contentB = fs.readFileSync(fileBPath, 'utf-8');
-  const concatenatedContent = contentA + contentB;
+  const concatenatedContent = contentA + '\n' + contentB;
 
   fs.writeFileSync(fileCPath, concatenatedContent);
   console.log('Concatenation complete! Check fileC for the result.');
